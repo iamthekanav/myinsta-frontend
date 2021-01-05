@@ -1,0 +1,20 @@
+.feeds h3{
+    text-align: center;
+    /* border: 1px solid lightgray; */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.user-postview{
+
+    /* border: 1px solid lightblue; */
+}
+.add-post-btn{
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    width: 100%;
+}
+.add-post-btn img{
+    max-height: 100%;
+    max-width: 100%;
+
+}

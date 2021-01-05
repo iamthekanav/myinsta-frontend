@@ -1,0 +1,16 @@
+<div className="create-new-post">
+                <form onSubmit={(e)=>{this.onSubmitHandler(e)}}>
+                <div className="form-div">
+                <div className="file-upload-section">
+                <div class="custom-file">
+                    <input type="file" class="custom-file-input" id="inputGroupFile02" ref={this.fileUpload}/>
+                    <label class="custom-file-label" for="inputGroupFile02">Choose file</label>
+                </div>
+                </div>
+                <div className="caption-and-btn">
+                    <input type="text" value={this.state.caption} disabled={false} onChange={(e)=>{this.onChangeHandler(e)}} id="create-post-caption"/>
+                    <button type="submit">CREATE POST</button>
+                </div>
+                </div>
+                </form>
+            </div>

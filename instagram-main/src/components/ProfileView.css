@@ -1,0 +1,8 @@
+.profile-view{
+    display: flex;
+    justify-content: space-evenly;
+    /* background-color: whitesmoke; */
+    height: calc(100vh- 100px);
+    margin-top: 20px;
+    /* background-image: url("instaback.jpg"); */
+}

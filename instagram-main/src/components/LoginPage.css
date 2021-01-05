@@ -1,0 +1,51 @@
+.login-page-main{
+    display: flex;
+    width: 100%;
+    height: 650px;
+    justify-content: center;
+    align-items: center;
+}
+.login-page-box{
+    box-shadow: 2px 1px 2px 4px black;
+    margin: 20px;
+    height: 500px;
+    width: 500px;
+    align-self: center;
+    /* background-color: beige; */
+
+}
+.login-page-box h2{
+    margin:10px;
+    align-items: center;
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+
+}
+
+.app-logo-login{
+    display: flex;
+    justify-content: center;
+    height: 50%;
+    width: 100%;
+}
+.app-logo-login img{
+    max-height: 100%;
+    max-width: 100%;
+}
+.sign-in-google{
+    height: 50%;
+    text-align: center;
+    font-weight: bolder;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.sign-in-img{
+    height: 80%;
+    width: 100%;
+}
+.sign-in-img img{
+    max-height: 90%;
+    max-width: 95%;
+}

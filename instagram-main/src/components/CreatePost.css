@@ -1,0 +1,28 @@
+.create-new-post{
+    min-width:400px;
+    margin :10px;
+}
+.main-create-post{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-width:100%;
+}
+.input-file-post{
+    min-width:100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.create-post-caption-btn{
+    min-width:100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.create-post-caption-btn input{
+    min-width: 70%;
+
+}
+

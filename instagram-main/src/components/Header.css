@@ -1,0 +1,36 @@
+.header{
+    border-bottom: 1px solid pink;
+    border: radius 2px; ;
+    height: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    background-color: white;
+}
+.header-image{
+    height: 90%; 
+    display: flex;
+    margin:15px ;
+    align-items: center;
+}
+.header-image img{
+    height: 90%;
+}
+.navlinks{
+    /* background-color: antiquewhite; */
+
+}
+.header-navlinks-ul{
+    display: flex;
+    list-style: none;
+
+
+}
+.header-navlinks-ul li{
+    margin-right: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+
+}
