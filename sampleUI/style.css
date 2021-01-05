@@ -1,0 +1,97 @@
+*{
+    box-sizing: border-box;
+}
+html,body{
+    margin : 0px;
+    padding : 0px;
+}
+.user-search{
+    display: flex;
+    justify-content: center;
+
+}
+.user-search input{
+    width: 25%;
+}
+.search{
+    padding-inline: 5%;
+    background: antiquewhite;
+
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    height: 700px;
+}
+.profile{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.profile-info{
+
+}
+.profile-img{
+
+}
+.user-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 20%;
+    align-items: center;
+    background: antiquewhite;
+}
+.name{
+
+}
+.user-handle{
+
+}
+.user-bio{
+
+}
+.profile-stats{
+    display: flex;
+    justify-content: space-around;
+
+}
+.posts{
+
+}
+.posts-count{
+
+}
+.followers{
+
+}
+.followers-count{
+
+}
+.following{
+
+}
+.following-count{
+
+}
+.profile-details{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 20%;
+}
+.follower-tab{
+
+}
+.following-tab{
+
+}
+.requests-tab{
+
+}
+.feeds{
+    margin : 100px;
+}
+.profile-img img{
+    height: 300px;
+}
